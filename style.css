@@ -1,0 +1,68 @@
+
+.item {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 5px 0 5px 20px;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: #00bfff;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.price {
+  margin-top: -65%;
+}
+
+
+body,html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #00cfff !important;
+  }
+
+  .searchbar{
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+  margin-top: 5%;
+  }
+
+  .search_input {
+  height: 100%;
+  font-size: 30px;
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  transition: width 0.4s linear; 
+
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color:#00bfff;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon{
+  background: white;
+  color: #00bfff;
+  }
+
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
+  text-decoration:none;
+  }
