@@ -5,12 +5,19 @@
   padding: 5px 0 5px 20px;
   font-size: 20px;
   border-radius: 30px;
-  background-color: #00bfff;
+  background-color: #353b48;
+  width: 100%;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  color: white;
+
 }
 
 .price {
-  margin-top: -65%;
+  position: absolute;
+  z-index: 99999;
+  top: 25%;
+  left: auto;
+  right: auto;
 }
 
 
@@ -19,10 +26,15 @@ body,html{
   width: 100%;
   margin: 0;
   padding: 0;
-  background: #00cfff !important;
+
   }
 
   .searchbar{
+  position: absolute;
+  z-index: 99999;
+  top: 5%;
+  left: auto;
+  right: auto;
   height: 60px;
   background-color: #353b48;
   border-radius: 30px;
@@ -40,15 +52,11 @@ body,html{
   width: 0;
   caret-color:transparent;
   transition: width 0.4s linear; 
-
-  }
-
-  .searchbar:hover > .search_input{
   padding: 0 10px;
   width: 450px;
   caret-color:#00bfff;
-  transition: width 0.4s linear;
   }
+
 
   .searchbar:hover > .search_icon{
   background: white;
@@ -66,3 +74,17 @@ body,html{
   color:white;
   text-decoration:none;
   }
+
+  .large-header {
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+ }
+ 
+ .demo .large-header {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+ }
