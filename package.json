@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/ev6b1/csmoney_pricebase#readme",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
